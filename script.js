@@ -31,8 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             overlay.style.display = 'none';
             mainContainer.style.opacity = 1;
-            // Play the audio
-            audio.play();
+            
+            // Play the audio after the content has faded in
+            setTimeout(function() {
+                audio.play();
+            }, 1000); // Delay to ensure content fade-in is complete
         }, 1000); // Match this duration with the CSS transition duration
     });
 });
