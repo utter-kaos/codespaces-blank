@@ -1,0 +1,114 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #4f4f4f;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-bottom: 20px; /* Add margin-bottom to create space */
+}
+
+#profile-icon {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;   /* Ensure maximum width */
+    max-height: 100px;  /* Ensure maximum height */
+    border-radius: 50%;
+    margin-bottom: 10px; /* Space between the icon and header */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 0 0 10px #000;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.presence {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.presence img {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.info {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.info #username {
+    font-weight: bold;
+}
+
+.text-section {
+    background-color: #4f4f4f;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.icons img:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+}
+#view-count {
+    margin-top: 20px;
+    font-size: 14px;
+}
+body {
+    background-image: url('bkrng.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+a {
+    color: inherit;
+  }
+  .dizzy{
+    background-image: url('/dizzy.png');
+    max-height: 600px;
+    background-size: 100% 100%;    
+    background-size: fixed;
+    background-repeat: no-repeat;  
+
+
+}
