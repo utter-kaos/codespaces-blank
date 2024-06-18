@@ -121,6 +121,6 @@ a {
     width: 100%;
     height: 100%;
     background: url('bkrng.png') no-repeat center center/cover;
-    filter: blur(17px);
+    filter: blur(10px);
     z-index: -1; /* Ensure it's behind everything */
 }
